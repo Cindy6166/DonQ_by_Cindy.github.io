@@ -3112,6 +3112,12 @@ body footer {
   background-color: #0d2f5a;
 }
 
+@media (max-width: 767.98px) {
+  body footer .footer {
+    height: 60px;
+  }
+}
+
 body footer .footer .icon-box {
   width: 30%;
 }

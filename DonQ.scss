@@ -1777,6 +1777,9 @@ body{
     footer{
         background-color: $deepBlue;
         .footer{
+            @include breakpoint-down-sm{
+                height: 60px;
+            }
             .icon-box{
                 width: 30%;
                 a{
